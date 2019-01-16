@@ -47,4 +47,3 @@ def multiply(a, b):
             outMat[i, j] = sum
 
     return outMat
-
