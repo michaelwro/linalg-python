@@ -80,3 +80,12 @@ def gaussSeidel(a, b):
         iters += 1
 
     return x  # Return Solution
+
+
+# SOLUTION: [5.5, 8, 4.5] (PD)
+a = np.array([[2, -1, 0], [-1, 2, -1], [0, -1, 2]], dtype="float64")
+b = np.array([3, 6, 1], dtype="float64")
+soln = gaussSeidel(a, b)  # Solve system
+
+print("Solution:")
+print(soln)
