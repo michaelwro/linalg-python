@@ -16,7 +16,7 @@ A collection of common linear algebra algorithms implemented in Python 3
 * **Linear System of Equations Solvers:**
   - **LU-Solver:** Solve linear system via *'LU-factorization.'*
   - **Gaussian Elimination**
-  - ** **Gauss-Seidel:** An iterative linear system solver.
+  - **Gauss-Seidel:** An iterative linear system solver.
 * **Vector Norm:** Calculate the norm of a vector, including the p-norm (any p).
 * **Dominant Eigenvalue:** Use *'power iteration'* to find the dominant (largest) eigenvalue of a square matrix.
 
