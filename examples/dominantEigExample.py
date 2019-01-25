@@ -2,7 +2,7 @@
 
 EXAMPLE
 
-dominantEig: linalg-python
+DOMINANTEIG: linalg-python
 Use power ieration to calculate the dominant eigenvalue of a square matrix.
 
 By: Michael Wrona
