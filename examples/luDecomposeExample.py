@@ -1,5 +1,7 @@
 """
 
+EXAMPLE
+
 LUDECOMPOSE: linalg-python
 Decompose a square matrix into its LU-factors
 
@@ -56,3 +58,16 @@ def luDecompose(A):
                 lower[k, i] = (A[k, i] - sum) / upper[i, i]
 
     return lower, upper
+
+
+# Define matrix
+a = np.array([[3, 1, 6], [-6, 0, -16], [0, 8, -17]])
+
+# Perform LU-factorization
+l, u = luDecompose(a)
+
+print("Lower Factor:")
+print(l)
+
+print("Upper Factor:")
+print(u)

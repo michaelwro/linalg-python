@@ -1,3 +1,5 @@
+[![Python: 3.6 | 3.7](https://img.shields.io/badge/Python-3.6%20%7C%203.7-brightgreen.svg)](https://www.python.org/)
+[![Code Style: Black](https://img.shields.io/badge/Code%20Style-Black-lightgrey.svg)](https://github.com/ambv/black)
 # linalg-python
 
 A collection of common linear algebra algorithms implemented in Python 3

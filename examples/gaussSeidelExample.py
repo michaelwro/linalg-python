@@ -1,5 +1,7 @@
 """
 
+EXAMPLE
+
 GAUSSSEIDEL: linalg-python
 Solve a linear system of equations using the iterative Gauss-Seidel method.
 This method only applies to positive-definite and/or symmetric systems.
@@ -80,3 +82,12 @@ def gaussSeidel(a, b):
         iters += 1
 
     return x  # Return Solution
+
+
+# SOLUTION: [5.5, 8, 4.5] (PD)
+a = np.array([[2, -1, 0], [-1, 2, -1], [0, -1, 2]], dtype="float64")
+b = np.array([3, 6, 1], dtype="float64")
+soln = gaussSeidel(a, b)  # Solve system
+
+print("Solution:")
+print(soln)

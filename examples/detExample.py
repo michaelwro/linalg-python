@@ -2,7 +2,7 @@
 
 EXAMPLE
 
-det: linalg-python
+DET: linalg-python
 Use LU-factorization to calculate the determinant of a square matrix.
 
 By: Michael Wrona
