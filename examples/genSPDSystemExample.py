@@ -1,5 +1,7 @@
 """
 
+EXAMPLE
+
 GENSPDSYSTEM: linalg-python
 Generate a dense, symmetric positive-definite system of linerar equations.
 SPD systems are commonly solved using iterative solvers.

@@ -1,5 +1,7 @@
 """
 
+EXAMPLE
+
 GAUSSSEIDEL: linalg-python
 Solve a linear system of equations using the iterative Gauss-Seidel method.
 This method only applies to positive-definite and/or symmetric systems.
