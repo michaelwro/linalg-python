@@ -13,25 +13,21 @@ Iowa State University (Ames, IA)
 import numpy as np
 
 
-def luDecompose(A, b):
+def luDecompose(A):
     """
-    SOLVE LINEAR SYSTEM USING LU DECOMPOSITION
-    Use LU decomposition to solve a linear system of equations.
-    'A': Coefficient matrix [n, n]
-    'b': Solution matrix [n, 1]
-    ** NOTE: 'A' and 'b' MUST be NumPy ARRAYS:
+    LUDECOMPUSE
+    Decompose a square matrix into its LU-factors
+    ** NOTE: 'A' MUST be NumPy ARRAYS:
     >>> A = np.array([n, n])    # Ex: np.array([[2, -1], [4, 3]])
-    >>> b = np.array([n])       # Ex: np.array([2, -1])
     """
     # Check if input matrix is square
     aRows, aCols = np.shape(A)
-    bRows, = np.shape(b)
     if aRows != aCols:
         print("ARRAY 'A' IS NOT SQUARE IN ROUTINE 'luDecompose()'")
         return
 
     # Check if input is Numpy array type
-    if type(A) != np.ndarray or type(b) != np.ndarray:
+    if type(A) != np.ndarray:
         print("INPUT ARRAY IS NOT NUMPY ARRAY")
         return
 
