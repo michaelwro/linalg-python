@@ -1,5 +1,7 @@
 """
 
+EXAMPLE
+
 TRANSPOSE: linalg-python
 Perform the transpose of 2D arrays.
 
